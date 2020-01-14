@@ -1,14 +1,11 @@
 package httpntlm
 
 import (
-	"crypto/tls"
 	"errors"
 	"io"
 	"io/ioutil"
-	"net"
 	"net/http"
 	"strings"
-	"time"
 
 	"github.com/ThomsonReutersEikon/go-ntlm/ntlm"
 )

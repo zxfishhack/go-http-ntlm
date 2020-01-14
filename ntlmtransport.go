@@ -3,12 +3,10 @@ package httpntlm
 import (
 	"crypto/tls"
 	"errors"
-	"github.com/coreos/etcd/client"
 	"io"
 	"io/ioutil"
 	"net"
 	"net/http"
-	"net/url"
 	"strings"
 	"time"
 
